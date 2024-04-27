@@ -1,0 +1,22 @@
+body {
+  font-family: 'Inter', sans-serif; 
+  font-weight: 400;
+  color: #333;
+}
+
+header {
+  border-bottom: 1px solid #DAA520; 
+}
+
+h1 {
+  color: #DAA520; 
+}
+
+h2 {
+  color: #4682B4; 
+}
+
+footer {
+  text-align: center;
+  color: #DAA520; 
+}
