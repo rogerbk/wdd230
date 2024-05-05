@@ -25,6 +25,10 @@ header p {
   font-size: .87rem;
 }
 
+header h1, header p, #menu-button {
+  color: #333333; /* Darker color for better contrast */
+}
+
 #menu-button {
   background: none;
   border: none;
@@ -65,7 +69,7 @@ nav ul li.active a {
   font-weight: 600;
 }
 nav ul li:hover a {
-  background-color: #DAA520;
+  background-color:#444444;
   color: white;
 }
 
@@ -74,6 +78,7 @@ div.hero {
   position: relative;
 }
 div.hero img {width: 100%;}
+
 div.hero a {
   display: block;
   position: absolute;
@@ -88,6 +93,7 @@ div.hero a {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.9);
 }
+
 div.hero a:hover {font-size: 150%;}
 
 div.cards{
@@ -104,11 +110,20 @@ main section {
 main section h2 {margin-top: 0;}
 
 footer {
-  background-color: #ddd;
+  background-color: #f4f4f4; /* Light gray background for a softer look */
+  color: #333333; /* Dark gray text to ensure sufficient contrast */
+  padding: 20px 0; /* Added padding for better spacing */
 }
+
 footer section {padding: 1rem 2vw;}
-footer p {margin: .1rem 0;}
-footer a {color:#DAA520;}
+
+footer p {
+  margin: .1rem 0;
+  line-height: 1.6;
+}
+
+footer a {color: #1a0dab;}
+
 footer section:nth-child(1) {
   display: grid;
   grid-template-columns: 60px auto;
@@ -116,7 +131,7 @@ footer section:nth-child(1) {
 
 footer h2 {
   font-size: 1rem; 
-  color: #333;
+  color: #222222;
   margin-top: 0; 
   margin-bottom: 0.5rem; 
   font-weight: 400;
