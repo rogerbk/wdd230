@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Chamber of Commerce week 3">
+  <meta name="author" content="Roger Nunez">
+  <meta property="og:title" content="WDD 230 - Chamber - Roger Nunez">
+  <meta property="og:url" content="https://rogerbk.github.io/wdd230/">
+  <meta property="og:description" content="Week 3 WDD230">
+  <meta property="og:image" content="https://rogerbk.github.io/wdd230/images/heredia.jpg">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <title>Lazy Load Demostration</title>
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Site Logo">
+    <div>
+    <h1>Heredia</h1>
+    <p>Heredia Chamber of Industry, Commerce and Tourism</p>
+  </div>
+    <nav>
+      <button id="menu-button">☰</button>
+      <ul>
+        <li class="active"><a href="">Home</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Member</a></li>
+        <li><a href="#">Minutes</a></li>
+      </ul>
+    </nav>
+    <h1>Lazy Loading</h1>
+  </header>
+  <main>
+  <picture>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, nulla, consequuntur nesciunt harum pariatur quod aperiam voluptatum molestias animi porro accusantium tenetur vel, omnis reiciendis laboriosam blanditiis consequatur id repellat.</p>
+    <img src="images/ruby1.webp" alt="Image1" loading="lazy" height="600" width="400" >
+  </picture>
+  <picture>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, nulla, consequuntur nesciunt harum pariatur quod aperiam voluptatum molestias animi porro accusantium tenetur vel, omnis reiciendis laboriosam blanditiis consequatur id repellat.</p>
+    <img src="images/ruby2.webp" alt="Image2" loading="lazy" height="600" width="400" >
+  </picture>
+  <picture>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, nulla, consequuntur nesciunt harum pariatur quod aperiam voluptatum molestias animi porro accusantium tenetur vel, omnis reiciendis laboriosam blanditiis consequatur id repellat.</p>
+    <img src="images/ruby3.webp" alt="Image3" loading="lazy" height="600" width="400" >
+  </picture>
+  <picture>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, nulla, consequuntur nesciunt harum pariatur quod aperiam voluptatum molestias animi porro accusantium tenetur vel, omnis reiciendis laboriosam blanditiis consequatur id repellat.</p>
+    <img src="images/ruby4.webp" alt="Image4" loading="lazy" height="600" width="400" >
+  </picture>
+  <picture>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, nulla, consequuntur nesciunt harum pariatur quod aperiam voluptatum molestias animi porro accusantium tenetur vel, omnis reiciendis laboriosam blanditiis consequatur id repellat.</p>
+    <img src="images/ruby5.webp" alt="Image4" loading="lazy" height="600" width="400" >
+  </picture>
+  <picture>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, nulla, consequuntur nesciunt harum pariatur quod aperiam voluptatum molestias animi porro accusantium tenetur vel, omnis reiciendis laboriosam blanditiis consequatur id repellat.</p>
+    <img src="images/ruby6.webp" alt="Image4" loading="lazy" height="600" width="400" >
+  </picture>
+  </main>
+  <footer>
+    <section>
+      <img src="images/logo.png" alt="Site Logo">
+      <div>
+        <h2>Contact Information</h2>
+        <p>Heredia Chamber of Industry, Commerce and Tourism</p>
+        <p>Avenida 5, calle 6</p>
+        <p>Costa Rica, Heredia 40101</p>
+      </div>
+    </section>
+    <section>
+      <h2>Communication</h2>
+      <p>info@camaraheredia.org</p>
+      <p><a href="tel:150612345678">1-506-1234-5678</a></p>
+      <p>Find us on <a href="#">Google Maps</a></p>
+    </section>
+    <section>
+      <h2>Copyright and Credits</h2>
+      <p>&copy;2024 Heredia Chamber of Industry, Commerce and Tourism</p>
+      <p>Roger Nunez</p>
+      <p>WDD 230 Project</p>
+      <p id="lastModified">placeholder</p>
+    </section>
+</footer>
+  <script src="scripts/getDates.js"></script>
+  <script src="scripts/scripts.js"></script>
+</body>
+</html>
