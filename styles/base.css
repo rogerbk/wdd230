@@ -95,6 +95,7 @@ main section {
   border: 1px solid #e2e2e2; 
   border-radius: 10px;
   overflow: hidden;
+  margin-bottom: .5rem;
 }
 main h3 {
   background-color: #f4f1ee; 
@@ -107,6 +108,22 @@ main p {
 main ul {
   list-style-position: inside;
   margin: 1rem;
+}
+
+.hero {width: 100%; position: relative;}
+.hero img {
+	width: 100%;
+	height: auto;
+}
+.hero div {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	padding: 1rem;
+	font-weight: 500;
+	color: #4e0b40;
+	background-color: rgba(253, 249, 249, 0.6);
+	border-radius: 6px;
 }
 
 footer {

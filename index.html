@@ -40,7 +40,15 @@
     </ul>
   </nav>
   <main>
+    <div class="hero">
+      <picture>
+        <source srcset="images/hero-small.webp" media="(max-width: 400px)">
+        <img src="images/hero-large.webp" alt="hero" width="960" height="400">
+      </picture>
+      <div>Costa Rica Temple</div>
+    </div>
     <h2>WDD 230: Web Frontend Development</h2>
+    <div class="sidebyside">
     <section>
       <h3 class="card">Learning Activities</h3>
       <ul>
@@ -55,10 +63,12 @@
 
     <section>
       <h3 class="card">Information</h3>
+      <p id="visitCount"></p>
       <p>San Jose Costa Rica</p>
       <p>76 F - Sunshine</p>
-      <p>Page Visits = 5</p>
     </section>
+  </div>
+  <iframe loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.212110478043!2d-84.12237058851542!3d9.999330490064793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e38ae910e6d9%3A0x3875642ea833cf62!2sHeredia%2C%20Costa%20Rica!5e0!3m2!1sen!2scr!4v1715215502710!5m2!1sen!2scr" width="870" height="450" style="border:0;" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </main>
   <footer>
     <p>&copy; <span id="year">year</span> Roger Nunez &bull; Costa Rica</p>
@@ -67,5 +77,6 @@
   <script src="scripts/getDates.js"></script>
   <script src="scripts/navigation.js"></script>
   <script src="scripts/darkMode.js"></script>
+  <script src="scripts/visitcounter.js"></script>
 </body>
 </html>

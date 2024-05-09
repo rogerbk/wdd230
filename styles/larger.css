@@ -11,6 +11,12 @@
     margin: 0 auto;
   }
 
+  .sidebyside {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 16px;
+  }
+
   main {
     display: grid;
     grid-template-columns: 2fr 1fr;
