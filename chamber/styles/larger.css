@@ -1,5 +1,10 @@
 @media only screen and (min-width: 38rem) {
 
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
   header {
     grid-template-columns: 50px auto auto;
   }
@@ -54,5 +59,15 @@
     justify-content: space-around;
   }
 
-} 
+  div.discover {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-top: 20px; 
+  }
+  section.gallery figure {max-width: 600px;margin-bottom: 100px;}
+  section.gallery img:hover {
+    box-shadow: 0 0 10px #333;
+    border-radius: 12px;
+  }
 
+} 

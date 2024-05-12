@@ -1,7 +1,7 @@
 *{box-sizing: border-box;}
 body {
-  font-family: 'Inter', sans-serif;;
-  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
   color: #333;
 }
 
@@ -26,7 +26,7 @@ header p {
 }
 
 header h1, header p, #menu-button {
-  color: #333333; /* Darker color for better contrast */
+  color: #333333; 
 }
 
 #menu-button {
@@ -101,6 +101,11 @@ div.cards{
   grid-template-columns: 1fr;
   padding: 1rem 2vw;
 }
+
+main {
+  padding-bottom: 2rem;
+}
+
 main section {
   background-color: #eee;
   border: 1px dashed #555;
@@ -109,10 +114,31 @@ main section {
 }
 main section h2 {margin-top: 0;}
 
+section.gallery figure {
+  margin: 2rem 2vw;
+}
+section.gallery figcaption {
+  text-align: center;
+  color: #666;
+  font-weight: 600;;
+}
+section.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+section.gallerybroke img {
+  border-radius: 4px;
+}
+section.gallerysquished img {
+  width: 100%;
+  border-radius: 4px;
+}
+
 footer {
-  background-color: #f4f4f4; /* Light gray background for a softer look */
-  color: #333333; /* Dark gray text to ensure sufficient contrast */
-  padding: 20px 0; /* Added padding for better spacing */
+  background-color: #f4f4f4; 
+  color: #333333; 
+  padding: 20px 0; 
 }
 
 footer section {padding: 1rem 2vw;}
