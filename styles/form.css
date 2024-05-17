@@ -1,0 +1,55 @@
+:root {
+    --spacing: .5rem 16px;
+    --validColor: rgb(100, 100, 201);
+    --errorColor: rgb(92, 25, 25);
+    --highlightColor: rgb(140, 143, 180);
+    --borderRadius: 6px;
+  }
+
+  form input[type="password"], form input[type="email"] {
+    display: block;
+    border: 1px solid #aaa;
+    border-left-width: 6px;
+    padding: 4px;
+  }
+
+  form label {
+    display: block;
+    margin: var(--spacing);
+  }
+
+  form input[type="text"], form input[type="email"] {
+    display: block;
+    border: 1px solid #aaa;
+    border-left-width: 6px;
+    padding: 4px;
+  }
+  
+  #passwordFeedback {
+    background-color: var(--highlightColor);
+    color: white;
+    line-height: 200%;
+    text-align: center;
+    margin: var(--spacing);
+    width: auto;
+  }  
+
+  form input[type="range"] {
+    display: block;
+  }
+
+  input:required:valid {
+    border-left-color: var(--validColor);
+  }
+
+  input:required:invalid {
+    border-left-color: var(--errorColor);
+  }
+  
+  form input[type="submit"] {
+    margin: var(--spacing);
+    background-color: var(--highlightColor);
+    border-radius: var(--borderRadius);
+    border: none;
+    padding: 8px 1rem;
+  }

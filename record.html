@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Submission Confirmation</title>
+  <link href="styles/base.css" rel="stylesheet">
+  <link href="styles/larger.css" rel="stylesheet">
+  <link href="styles/normalize.css" rel="stylesheet">
+  <link href="styles/form.css" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="favicon.ico">
+</head>
+<body>
+  <header>
+    <h1>Form Submission Confirmation</h1>
+  </header>
+  <main>
+    <h2>Thank you for your submission!</h2>
+    <p>Your form has been successfully submitted.</p>
+    <p><strong>Username:</strong> <span id="submittedUsername"></span></p>
+    <p><strong>Password:</strong> <span id="submittedPassword"></span></p>
+    <p><strong>Email:</strong> <span id="submittedEmail"></span></p>
+    <p><strong>Rating:</strong> <span id="submittedRating"></span></p>
+  </main>
+  <footer>
+    <p>&copy; <span id="currentYear">year</span> Roger Nunez &bull; Costa Rica</p>
+  </footer>
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+
+    document.getElementById('submittedUsername').textContent = urlParams.get('username');
+    document.getElementById('submittedPassword').textContent = urlParams.get('password');
+    document.getElementById('submittedEmail').textContent = urlParams.get('byuiEmail');
+    document.getElementById('submittedRating').textContent = urlParams.get('rating');
+    
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
