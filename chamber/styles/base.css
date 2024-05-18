@@ -131,7 +131,8 @@ form label, form textarea{
 form textarea{width: 300px;}
 form fieldset label{margin: .5rem 0;}
 form fieldset {margin-bottom: 1rem; width: 75%;}
-form input[type='text'], form input[type='tel'] {
+
+form input[type='text'], form input[type='tel'], form input[type='email'] {
   display: block;
   width: 300px
 }
