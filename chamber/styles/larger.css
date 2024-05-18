@@ -70,4 +70,8 @@
     border-radius: 12px;
   }
 
+  div.join {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
 } 
