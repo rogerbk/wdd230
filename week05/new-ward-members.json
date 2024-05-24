@@ -1,0 +1,33 @@
+{
+	"last": "Nunez",
+	"moved": "2021-01-06",
+	"size": 3,
+	"visit": false,
+	"parents": [{
+			"name": "Mercedes",
+			"birth": "1953-11-01",
+			"Gender": "F"
+		},
+		{
+			"name": "Pedro",
+			"birth": "1955-02-17",
+			"Gender": "M"
+		}
+	],
+	"kids": [{
+			"name": "Angelo",
+			"birth": "1984-12-13",
+			"Gender": "M"
+		},
+		{
+			"name": "Nelly",
+			"birth": "1975-02-18",
+			"Gender": "F"
+		},
+		{
+			"name": "Roger",
+			"birth": "1979-02-17",
+			"Gender": "M"
+		}
+	]
+}
