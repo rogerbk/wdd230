@@ -21,16 +21,16 @@
       "week": "Week 02",
       "links": [
         {
-          "title": "Assignment A",
-          "url": "assignment1.html"
+          "title": "Web Design Principles",
+          "url": "https://rogerbk.github.io/wdd230/week02/design.html"
         },
         {
-          "title": "Assignment B",
-          "url": "assignment2.html"
+          "title": "Responsive Menu CodePen",
+          "url": "https://codepen.io/Roger-Gallo-N/pen/WNWqOMP"
         },
         {
-          "title": "Assignment C",
-          "url": "assignment3.html"
+          "title": "Bom App",
+          "url": "https://rogerbk.github.io/wdd230/week02/bom.html"
         }
       ]
     },
@@ -38,12 +38,12 @@
       "week": "Week 03",
       "links": [
         {
-          "title": "Assignment A",
-          "url": "assignment1.html"
+          "title": "WebP",
+          "url": "https://rogerbk.github.io/wdd230/week03/images/landscape.webp"
         },
         {
-          "title": "Assignment B",
-          "url": "assignment2.html"
+          "title": "Bom",
+          "url": "https://rogerbk.github.io/wdd230/week03/bom.html"
         },
         {
           "title": "Assignment C",
@@ -72,16 +72,20 @@
       "week": "Week 05",
       "links": [
         {
-          "title": "Assignment A",
-          "url": "assignment1.html"
+          "title": "CSS Pseudo-elements",
+          "url": "https://codepen.io/Roger-Gallo-N/pen/qBGNGgW"
         },
         {
-          "title": "Assignment B",
-          "url": "assignment2.html"
+          "title": "JSON File",
+          "url": "https://rogerbk.github.io/wdd230/week05/new-ward-members.json"
         },
         {
-          "title": "Assignment C",
-          "url": "assignment3.html"
+          "title": "Prophets",
+          "url": "https://rogerbk.github.io/wdd230/week05/prophets.html"
+        },
+        {
+          "title": "Weather API",
+          "url": "https://rogerbk.github.io/wdd230/week05/weather.html"
         }
       ]
     }
