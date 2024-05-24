@@ -1,22 +1,6 @@
 {
   "weeks": [
-    {
-      "week": "Week 01",
-      "links": [
-        {
-          "title": "Assignment A",
-          "url": "*"
-        },
-        {
-          "title": "Assignment B",
-          "url": "assignment2.html"
-        },
-        {
-          "title": "Assignment C",
-          "url": "assignment3.html"
-        }
-      ]
-    },
+
     {
       "week": "Week 02",
       "links": [
@@ -47,24 +31,7 @@
         },
         {
           "title": "Assignment C",
-          "url": "assignment3.html"
-        }
-      ]
-    },
-    {
-      "week": "Week 04",
-      "links": [
-        {
-          "title": "Assignment A",
-          "url": "assignment1.html"
-        },
-        {
-          "title": "Assignment B",
-          "url": "assignment2.html"
-        },
-        {
-          "title": "Assignment C",
-          "url": "assignment3.html"
+          "url": "https://rogerbk.github.io/wdd230/"
         }
       ]
     },
