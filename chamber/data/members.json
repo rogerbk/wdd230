@@ -1,0 +1,68 @@
+{
+    "members": [
+        {
+            "name": "Café Britt",
+            "address": "Finca Tres Hermanas, Heredia, Costa Rica",
+            "phone": "+506-2277-1600",
+            "url": "https://www.cafebritt.com/",
+            "logopath": "logo1.png",
+            "level": 3
+        },
+        {
+            "name": "La Casona de Don Mario",
+            "address": "Avenida 2, Heredia, Costa Rica",
+            "phone": "+506-2237-0453",
+            "url": "https://www.lacasonadedonmario.com/",
+            "logopath": "logo2.png",
+            "level": 1
+        },
+        {
+            "name": "Hotel El Tirol",
+            "address": "Altos de San Rafael, Heredia, Costa Rica",
+            "phone": "+506-2267-6222",
+            "url": "https://www.hoteleltirol.com/",
+            "logopath": "logo3.png",
+            "level": 2
+        },
+        {
+            "name": "Universidad Nacional",
+            "address": "Campus Omar Dengo, Heredia, Costa Rica",
+            "phone": "+506-2277-3000",
+            "url": "https://www.una.ac.cr/",
+            "logopath": "logo4.png",
+            "level": 3
+        },
+        {
+            "name": "Flor de Caña",
+            "address": "Calle Real, Heredia, Costa Rica",
+            "phone": "+506-2237-1234",
+            "url": "https://www.flordecana.com/",
+            "logopath": "logo5.png",
+            "level": 2
+        },
+        {
+            "name": "Tostadora 1820",
+            "address": "Zona Industrial, Heredia, Costa Rica",
+            "phone": "+506-2239-3939",
+            "url": "https://www.cafe1820.com/",
+            "logopath": "logo6.png",
+            "level": 1
+        },
+        {
+            "name": "Museo de Cultura Popular",
+            "address": "Santa Lucía de Barva, Heredia, Costa Rica",
+            "phone": "+506-2260-1619",
+            "url": "https://www.museosdecostarica.com/",
+            "logopath": "logo7.png",
+            "level": 0
+        },
+        {
+            "name": "Heladería Pops",
+            "address": "Centro Comercial Paseo de las Flores, Heredia, Costa Rica",
+            "phone": "+506-2293-4444",
+            "url": "https://www.pops.cr/",
+            "logopath": "logo8.png",
+            "level": 3
+        }
+    ]
+}

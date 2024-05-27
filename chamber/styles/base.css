@@ -181,6 +181,48 @@ section.gallerysquished img {
   border-radius: 4px;
 }
 
+div#theDirectory {width: 100%; text-align: center;}
+div#theDirectory button.active {background-color: #3d9156;}
+div#theDirectory button {
+  margin: 0 1rem; 
+  padding: .7rem 1rem;
+  border-radius: 10px;
+  border: 1px solid #6d4ec2;
+}
+div#members {
+  margin: 0 2vw;
+}
+
+div.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap:8px;
+  justify-content: center;
+  
+}
+div.grid section {
+  text-align: center;
+  margin: 1rem 0;
+  border: dashed 1px #166940;
+  border-radius: 10px;
+  overflow: hidden;
+}
+div.grid img:first-child {width: 100%;}
+div.grid h3 {margin: .2rem 0;}
+div.grid p {margin: .2rem 0;}
+
+div.list section {
+  display: grid;
+  grid-template-columns: auto auto auto auto 55px;
+  align-items: center;
+  margin: .5rem 0;
+  border: dashed 1px #116426;
+  border-radius: 10px;
+  overflow: hidden;
+}
+div.list img:first-child {display: none;}
+
+
 footer {
   background-color: #f4f4f4; 
   color: #333333; 
