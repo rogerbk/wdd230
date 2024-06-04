@@ -36,33 +36,21 @@
     </nav>
   </header>
   <main>
+<div id="banner">Don't forget about the Chamber of Commerce meet and greet on Wednesday at 7:00 p.m.</div>
 <div class="hero">
   <img src="images/hero-wide.jpg" alt="hero">
   <a href="join.html">Join Now!</a>
 </div>
-<div class="cards">
+<div class="cards"id="cards">
 <section class="events">
   <h2>Events</h2>
-  <p>Efficiently gather and integrate excellent procedures without relying on futuristic concepts. Steadily implement multimedia solutions.</p>
+  <p>An exhibition that will bring together various companies from the region to showcase their products and services. An excellent opportunity for networking and discovering new business opportunities.</p>
 </section>
 <section class="weather">
-  <h2>Weather</h2>
-  <p>Sunny</p>
-</section>
-<section class="spot">
-  <h2>Spotlight 1</h2>
-  <p>Gradually implement multimedia features.</p>
-  <a href="#">Website</a>
-</section>
-<section class="spot">
-  <h2>Spotlight 2</h2>
-  <p>Gradually implement multimedia features.</p>
-  <a href="#">Website</a>
-</section>
-<section class="spot">
-  <h2>Spotlight 3</h2>
-  <p>Gradually implement multimedia features.</p>
-  <a href="#">Website</a>
+  <h2>Weather for <span id="town"></span></h2>
+        <p class="current">Now: <span id="temp">x</span> with <span id="desc">x</span></p>
+        <h3>Three day Forecast</h3>
+        <div id="forecast"></div>
 </section>
 </div>
   </main>
@@ -91,5 +79,10 @@
     </section>
 </footer>
   <script src="scripts/scripts.js"></script>
+  <script src="scripts/common.js"></script>
+  <script src="scripts/banner.js"></script>
+  <script src="scripts/weatherCurrent.js"></script>
+  <script src="scripts/weatherforecast.js"></script>
+  <script src="scripts/spotlight.js"></script>
 </body>
 </html>
